@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -41,7 +41,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -69,7 +70,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -469,7 +471,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "5o2LsCQduNRyZKt4FU2jpD",
@@ -491,20 +494,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/"
-        },
-        {
-          "id": "qQqmqTm0QLAu",
-          "name": "GetSolar",
-          "type": "managed",
-          "projectId": "5o2LsCQduNRyZKt4FU2jpD",
-          "renderModuleFilePath": "plasmic/copyyy/PlasmicGetSolar.jsx",
-          "importSpec": {
-            "modulePath": "../pages/get-solar.jsx"
-          },
-          "cssFilePath": "plasmic/copyyy/PlasmicGetSolar.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/get-solar"
         }
       ],
       "icons": [

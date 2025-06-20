@@ -10,10 +10,8 @@
 // Component: LqUZto8xuHKS
 import * as React from "react";
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import {
-  PlasmicLink as PlasmicLink__,
   Stack as Stack__,
   classNames,
   createPlasmicElementProxy,
@@ -514,21 +512,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 </FormWrapper>
               );
             })()}
-            <PlasmicLink__
-              data-plasmic-name={"link"}
-              data-plasmic-override={overrides.link}
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link
-              )}
-              component={Link}
-              href={`/get-solar`}
-              platform={"nextjs"}
-            >
-              {"Some link text"}
-            </PlasmicLink__>
           </section>
           {(() => {
             const child$Props = {
@@ -1486,7 +1469,6 @@ const PlasmicDescendants = {
     "form",
     "input",
     "textArea",
-    "link",
     "form2",
     "input7",
     "input2",
@@ -1503,11 +1485,10 @@ const PlasmicDescendants = {
     "textArea2"
   ],
 
-  section: ["section", "form", "input", "textArea", "link"],
+  section: ["section", "form", "input", "textArea"],
   form: ["form", "input", "textArea"],
   input: ["input"],
   textArea: ["textArea"],
-  link: ["link"],
   form2: [
     "form2",
     "input7",
@@ -1582,7 +1563,6 @@ export const PlasmicHomepage = Object.assign(
     form: makeNodeComponent("form"),
     input: makeNodeComponent("input"),
     textArea: makeNodeComponent("textArea"),
-    link: makeNodeComponent("link"),
     form2: makeNodeComponent("form2"),
     input7: makeNodeComponent("input7"),
     input2: makeNodeComponent("input2"),
